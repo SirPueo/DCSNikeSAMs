@@ -1,1 +1,7 @@
+This is a rough pass at a Nike Hercules mod. I do not intend to continue development any further as this was just an exercise in exploring the DCS modding environment.
 
+Missing features:
+- Unit dependencies (most units can operate independently, not requiring support equipment)
+- Nuclear warhead (currently using a rough approximation of the conventional warhead)
+- Refined missile performance (missile may be overperforming, likely having too little drag)
+- Detailed Textures (very basic textures currently present)
