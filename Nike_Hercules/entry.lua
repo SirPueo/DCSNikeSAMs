@@ -1,6 +1,6 @@
 --Nike Hercules Mod
 --by SirPueo
---v0.1.0
+--v0.1.1
 
 declare_plugin("Nike_Hercules",
 {
@@ -9,8 +9,15 @@ displayName   = _("Nike Hercules"),
 shortName	  =   "NikeHercules",
 state		 	  = "installed",
 developerName	  = "Sir Pueo",
-version		 	  = "0.1.0",	
+version		 	  = "0.1.1",	
 info		  =    _("Adds the Nike Hercules System and various accompanying structures"),	 
+Skins	=
+	{
+		{
+			name	= "Nike Hercules",
+			dir		= "Theme"
+		},
+	},
 --encyclopedia_path = current_mod_path .. '/Encyclopedia', --WIP
 })
 

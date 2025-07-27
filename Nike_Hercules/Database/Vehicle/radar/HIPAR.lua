@@ -28,7 +28,7 @@ GT.WS = {};
 GT.WS.maxTargetDetectionRange = GT.sensor.max_range_finding_target;
 GT.WS.radar_type = 105;
 GT.WS.radar_rotation_type = 0;
-GT.WS.searchRadarFrequencies = {{8.0e9, 12.0e9}}
+GT.WS.searchRadarFrequencies = {2.85e9, 3.2e9}; --{{8.0e9, 12.0e9}}
 --GT.WS.isDetector = true;
 
 --Burning after hit
@@ -50,7 +50,7 @@ for i = 1,15 do
     {
         {
         type = 101,
-		reflection_limit = 0.18,
+		reflection_limit = 0.06,
         distanceMin = GT.sensor.min_range_finding_target,
         distanceMax = GT.sensor.max_range_finding_target,
 		ECM_K = 0.45,
@@ -77,6 +77,6 @@ GT.mapclasskey = "P0091000036";
 GT.attribute = {wsType_Ground,wsType_SAM,wsType_Radar,WSTYPE_PLACEHOLDER,
 				"EWR",
 				};
-GT.Countries = {"USA"}
+GT.Countries = {"USA","Belgium","Denmark","Germany","Greece","Italy","Japan","South Korea","The Netherlands","Norway","Spain","Turkey"};
 GT.category = "Air Defence";
 GT.tags  = {"Air Defence", "EW Radar"};

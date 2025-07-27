@@ -34,7 +34,7 @@ local ws = GT_t.inc_ws();
 GT.WS[ws] = {};
 set_recursive_metatable(GT.WS[ws], GT_t.WS_t.NikeHerculesB_GER);
 GT.WS[ws].pos = {0, 0, 0};
-GT.WS[ws].LN[1].ECM_K = -1
+GT.WS[ws].LN[1].ECM_K = -1;
 GT.WS[ws].LN[1].beamWidth = 0.0;
 GT.WS[ws].LN[1].barrels_reload_type = 3; -- BarrelsReloadTypes.SEQUENTIALY
 GT.WS[ws].LN[1].depends_on_unit = {{{"Nike-Hercules MTR"},},};
@@ -62,4 +62,4 @@ GT.tags  =
     "Air Defence",
 	"Launcher",
 };
-GT.Countries = {"USA"}
+GT.Countries = {"USA","Germany"};

@@ -16,11 +16,11 @@ GT.CustomAimPoint = {0,1.5,0}
 
 
 --Burning after hit
-GT.visual.fire_size = 0.7 --relative burning size
-GT.visual.fire_pos[1] = 0 -- center of burn at long axis shift(meters)
-GT.visual.fire_pos[2] = 0 -- center of burn shift at vertical shift(meters)
-GT.visual.fire_pos[3] = 0 -- center of burn at transverse axis shift(meters)
-GT.visual.fire_time = 900 --burning time (seconds)
+GT.visual.fire_size = 0.7; --relative burning size
+GT.visual.fire_pos[1] = 0; -- center of burn at long axis shift(meters)
+GT.visual.fire_pos[2] = 0; -- center of burn shift at vertical shift(meters)
+GT.visual.fire_pos[3] = 0; -- center of burn at transverse axis shift(meters)
+GT.visual.fire_time = 900; --burning time (seconds)
 
 GT.sensor = {};
 GT.sensor.max_range_finding_target = 300000;
@@ -49,9 +49,8 @@ for i = 1,15 do
     GT.WS[ws].LN[1].distanceMin = GT.sensor.min_range_finding_target;
     GT.WS[ws].LN[1].distanceMax = GT.sensor.max_range_finding_target;
 	GT.WS[ws].LN[1].reflection_limit = 0.049;
-    GT.WS[ws].LN[1].min_trg_alt = 5
+    GT.WS[ws].LN[1].min_trg_alt = 5;
     GT.WS[ws].LN[1].max_trg_alt = GT.sensor.max_alt_finding_target;
-    --GT.WS[ws].LN[1].depends_on_unit = {{{"S-300V 9S15 sr",},},{{"S-300V 9S19 sr",},},};
 end
 
 GT.Name = "Nike-Hercules RCT";
@@ -68,4 +67,4 @@ GT.attribute = {wsType_Ground,wsType_SAM,wsType_NoWeapon,wsType_GenericVehicle,
 				};
 GT.category = "Air Defence";
 GT.tags = { "Air Defence", "Command & Control" };
-GT.Countries = {"USA"}
+GT.Countries = {"USA","Belgium","Denmark","Germany","Greece","Italy","Japan","South Korea","The Netherlands","Norway","Spain","Turkey"};

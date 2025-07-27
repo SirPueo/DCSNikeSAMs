@@ -41,7 +41,7 @@ GT.visual.IR = { coeffs = {GT_t.IR_COEFFS_ENGINE_APC, {0.0, 0.0}, GT_t.IR_COEFFS
 GT.WS = {};
 GT.WS.maxTargetDetectionRange = 185000;
 GT.WS.radar_type = 102;
-GT.WS.searchRadarFrequencies = {{8.5e9, 9.6e9}};
+GT.WS.searchRadarFrequencies = {4910.0e6, 5090.0e6};--{{8.5e9, 9.6e9}};
 GT.WS.isDetector = true;
 
 -- 1 tracker, only one target to be tracked at a time
@@ -63,12 +63,12 @@ GT.WS[ws].pidZ = { p = 5, i = 0.0, d = 4, inn = 0.2};
 
 GT.WS[ws].LN = {};
 GT.WS[ws].LN[1] = {};
---GT.WS[ws].LN[1].depends_on_unit = {{{"Nike-Hercules BCT"},{"Nike-Hercules RCT"}}};
+GT.WS[ws].LN[1].depends_on_unit = {"Nike-Hercules RCT"};
 GT.WS[ws].LN[1].reactionTime = 10;
 GT.WS[ws].LN[1].type = 102;
 GT.WS[ws].LN[1].distanceMin = 2000;
 GT.WS[ws].LN[1].distanceMax = 185000;
-GT.WS[ws].LN[1].reflection_limit = 0.22;
+GT.WS[ws].LN[1].reflection_limit = 0.06;
 GT.WS[ws].LN[1].ECM_K = 0.4;
 GT.WS[ws].LN[1].min_trg_alt = 100;
 GT.WS[ws].LN[1].max_trg_alt = 90000;
@@ -95,4 +95,4 @@ GT.attribute = {wsType_Ground,wsType_SAM,wsType_Radar,WSTYPE_PLACEHOLDER,
 				};
 GT.category = "Air Defence";
 GT.tags = { "Air Defence", "Tracking Radar" };
-GT.Countries = {"USA"}
+GT.Countries = {"USA","Belgium","Denmark","Germany","Greece","Italy","Japan","South Korea","The Netherlands","Norway","Spain","Turkey"};

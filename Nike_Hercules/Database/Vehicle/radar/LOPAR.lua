@@ -35,12 +35,10 @@ GT.WS = {};
 GT.WS.maxTargetDetectionRange = 230000;
 GT.WS.radar_type = 102;
 GT.WS.radar_rotation_type = 0;
---GT.WS.searchRadarFrequencies = {{8.0e9, 12.0e9}}
-GT.WS.searchRadarFrequencies = {{3.1e9, 3.4e9}}
+GT.WS.searchRadarFrequencies = {4910.0e6, 5090.0e6};
 --GT.WS.isDetector = true;
 GT.WS.depends_on_unit = {"Nike-Hercules RCT"};
 
---GT.WS[ws].LN[1].depends_on_unit = {{{"Nike-Hercules BCT"},},{{"Nike-Hercules RCT"},},};
 local ws = 0;
 for i = 1,10 do 
     ws = GT_t.inc_ws();
@@ -55,7 +53,7 @@ for i = 1,10 do
     {
         {
         type = 101,
-		reflection_limit = 0.3,
+		reflection_limit = 0.06,
         distanceMin = GT.sensor.min_range_finding_target,
         distanceMax = GT.sensor.max_range_finding_target,
 		ECM_K = 0.6,
@@ -84,4 +82,4 @@ GT.attribute = {wsType_Ground,wsType_SAM,wsType_Radar,WSTYPE_PLACEHOLDER,
 				};
 GT.category = "Air Defence";
 GT.tags = { "Air Defence", "Search Radar" };
-GT.Countries = {"USA"}
+GT.Countries = {"USA","Belgium","Denmark","Germany","Greece","Italy","Japan","South Korea","The Netherlands","Norway","Spain","Turkey"};
