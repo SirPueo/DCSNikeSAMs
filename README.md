@@ -120,3 +120,194 @@ Radar frequencies (for opposing AGM-45 settings)
 - Refined missile performance (missile may be overperforming, likely having too little drag)
 - Detailed Textures (very basic textures currently present)
 - Animated Launcher (currently a static object with missile in upright position as if on alert)
+
+## Site Template
+Add the following to the templates file on the following path:
+**C:\Username\Saved Games\DCS\MissionEditor\templates.lua** 
+```
+["Nike Hercules Site"] = 
+	{
+		["type"] = "vehicle",
+		["name"] = "Nike Hercules Site",
+		["country"] = 2,
+		["units"] = 
+		{
+			[1] = 
+			{
+				["dx"] = 0,
+				["dy"] = 0,
+				["name"] = "Nike-Hercules RCT",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["dx"] = -0.20792494999478,
+				["dy"] = -8.8510406699497,
+				["name"] = "Nike-Hercules Int Bldg",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [2]
+			[3] = 
+			{
+				["dx"] = 0.057747870043386,
+				["dy"] = -17.581716589979,
+				["name"] = "Nike-Hercules BCT",
+				["skill"] = "Average",
+				["heading"] = 3.1415926535898,
+			}, -- end of [3]
+			[4] = 
+			{
+				["dx"] = 37.047369440028,
+				["dy"] = -8.9008290499914,
+				["name"] = "HIPAR",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [4]
+			[5] = 
+			{
+				["dx"] = 84.17386356002,
+				["dy"] = -8.4945661699167,
+				["name"] = "Nike-Hercules LOPAR",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [5]
+			[6] = 
+			{
+				["dx"] = 35.76298968005,
+				["dy"] = -98.526153129991,
+				["name"] = "Nike-Hercules MTR",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [6]
+			[7] = 
+			{
+				["dx"] = 37.812365570047,
+				["dy"] = 88.59092401003,
+				["name"] = "Nike-Hercules TRR",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [7]
+			[8] = 
+			{
+				["dx"] = 36.490441490023,
+				["dy"] = 175.46434802003,
+				["name"] = "Nike-Hercules TTR",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [8]
+			[9] = 
+			{
+				["dx"] = 36.387112850032,
+				["dy"] = 6.6116916600149,
+				["name"] = "Nike-Hercules Pwr Bldg",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [9]
+			[10] = 
+			{
+				["dx"] = 922.57064177003,
+				["dy"] = 158.80585192004,
+				["name"] = "Nike-Hercules LCT",
+				["skill"] = "Average",
+				["heading"] = 0,
+			}, -- end of [10]
+			[11] = 
+			{
+				["dx"] = 1032.38603811,
+				["dy"] = 131.12615085009,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [11]
+			[12] = 
+			{
+				["dx"] = 1032.41448669,
+				["dy"] = 119.83472567005,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [12]
+			[13] = 
+			{
+				["dx"] = 1032.5355274,
+				["dy"] = 108.46048259002,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [13]
+			[14] = 
+			{
+				["dx"] = 1032.4506009,
+				["dy"] = 97.074781200034,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [14]
+			[15] = 
+			{
+				["dx"] = 1041.47117867,
+				["dy"] = 520.6811131601,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [15]
+			[16] = 
+			{
+				["dx"] = 1041.40049145,
+				["dy"] = 531.40419989999,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [16]
+			[17] = 
+			{
+				["dx"] = 1041.47117867,
+				["dy"] = 542.33049980004,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [17]
+			[18] = 
+			{
+				["dx"] = 1041.47117867,
+				["dy"] = 553.15519312001,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [18]
+			[19] = 
+			{
+				["dx"] = 1027.96330139,
+				["dy"] = -361.55355164001,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [19]
+			[20] = 
+			{
+				["dx"] = 1028.12072357,
+				["dy"] = -372.71690892999,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [20]
+			[21] = 
+			{
+				["dx"] = 1028.12072357,
+				["dy"] = -383.54160224996,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [21]
+			[22] = 
+			{
+				["dx"] = 1028.12072357,
+				["dy"] = -394.36629556993,
+				["name"] = "Nike Hercules ln_C",
+				["skill"] = "Average",
+				["heading"] = 4.7123889803847,
+			}, -- end of [22]
+		}, -- end of ["units"]
+	}, -- end of ["Nike Hercules Site"]
+ ```
