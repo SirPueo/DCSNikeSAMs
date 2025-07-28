@@ -7,8 +7,8 @@ Extract the Nike_Hercules file into **C:\Username\Saved Games\DCS\Mods\tech**
 
 
 ## Equipment Overview
-![System Overview](https://nikemissile.org/herc_system/page4.jpg)
 ### MIM-14B/C
+![Missile Drawing](https://www.nikemissile.org/IFC/missile2.jpg)
 
 The Nike Hercules Missile is a two-stage missile. The missile is launched near verically by the booster stage motor. The booster stage lasts for 3.4 seconds and propells the missile without guidance to above one mile. The booster will fall away due to aerodynamic drag following booster motor burn-out.
 
@@ -27,36 +27,80 @@ Documentation indicates that variants of the MIM-14 had g-limits of 7g with upgr
 
 
 ### AN/MPQ-43 HIPAR (high power acquisition radar)
+![HIPAR](https://ed-thelen.org/hipar_station.gif)
 
 The primary function of the HIPAR system is to locate, interrogate, and designate, to the target track radar (TTR), targets in the area defended by the improved Hercules system. The HIPAR system can detect aircraft and tactical ballistic missile targets.
 
 **Perormance Specs:**
-- Vertical Coverage: 0 to 60 deg., 151,000ft, 46km altitude
+- Elevation: 0 to 60 deg., 151,000ft, 46km altitude
 - Horizonal Coverage: 350,000 yards (172nmi, 320km) range
-- Antenna Speed: 6.6 and 10 RPM 
+- Antenna Speed: 6.6 and 10 RPM
+- RF Freq Range: 1.35 - 1.45 GHz
 
 **Mod Simplifications:**
--- Antenna Speed: 7.5 RPM
+- Antenna Speed: 7.5 RPM
 
 
 ### LOPAR (low power acquisition radar)
+![LOPAR](https://ed-thelen.org/LOPAR-ORD.jpg)
 
+The LOPAR was the ACQ radar from Ajax, retained for Hercules and renamed to LOPAR. Targets identified with the more powerful HIPAR would be then picked up on the LOPAR which would interigate with its IFF system.
+
+- Beam Angle: 1.4 deg Azimuth
+- Elevation: 2 to 22 deg. 
+- Antenna Speed: 5, 10 and 15 RPM
+- RF Freq. Range: 3.1 - 3.4 GHz 
 
 **Mod Simplifications:**
--- Antenna Speed: 10 RPM
+- Antenna Speed: 10 RPM
 
 
 
 ### MTR/TTR (Missile Tracking Radar/Target Tracking Radar)
+![MTR/TTR](https://ed-thelen.org/pics5/Nike_Missile_Site_SF-88_HercTracking.jpg)
 
+The LOPAR provided rough range, azimuth and limited altitude or elevation information to the operators of the Target Tracking Radar (TTR), who would manually slew the TTR onto the target. Once locked-on, tracking was automatic.
+
+The MTR Tracks the position of the missile from launch, enabling the ground based system to calculate the necessary steering and fuzing commands for the missile to intercept the target tracked by the TTR. To facilitate missile tracking, in reality, the MTR must have uninterrupted line of sight from launch to target intercept.
+
+**Perormance Specs:**
+- Freq. Range 	8.5 - 9.6 GHz 
 
 ### TRR (Target Ranging Radar)
+![TRR](https://ed-thelen.org/trr_ant.jpg)
 
+The Target Ranging Radar (TRR) was used to counter jamming techniques used against monopulse radars like the Target Tracking Radar (TTR). Jammers can disrupt range measurements by sending false signals, but the TRR countered this by rapidly switching between widely spaced frequencies, making it difficult to jam effectively. While TRR handled range, the TTR could still track targets in azimuth and elevation and was upgraded with a "home-on-jam" mode to track jamming signals directly.
+
+**Perormance Specs:**
+- Freq Range 	15.7 to 17.5 gHz 
+
+### LCT (Launch Control Trailer)
+![LCT](https://ed-thelen.org/LaunchControlTrailer-.jpg)
+
+### BCT (Battery Control Trailer)
+![BCT](https://ed-thelen.org/FM44-80-trailerComputer-.png)
+
+### RCT (Radar Control Trailer)
+
+![RCT](https://ed-thelen.org/FM44-80-RadarTrailer-Target-.png)
 
 ### Other Buildings
-Interconnection Building
-Power Building
-Elevation Tower
+**Interconnection Building**
+
+![ICB](https://nikemissile.org/ifcsketvch.jpg)
+
+**Power Building**
+
+![Power Building](https://www.nikemissile.org/Generators/launcher.jpg)
+
+
+**Elevation Tower**
+  
+![Elevation Tower](https://th.bing.com/th/id/R.b4860ea3ad21dc50d522e3fb3c5cc3e9?rik=2tbN5ty1IcaEbQ&riu=http%3a%2f%2fnikeordnance.nikemissile.org%2fHiparMtr2.jpg&ehk=R26niUUchIdtbRuMLz7ULyPlQrOE9n%2fFZS5xlK4r%2fv4%3d&risl=&pid=ImgRaw&r=0)
+
+
+### Site Layout
+![System Overview](https://nikemissile.org/herc_system/page4.jpg)
 
 
 ## References
@@ -67,6 +111,9 @@ Elevation Tower
 Radar frequencies (for opposing AGM-45 settings)
 - HIPAR: 2.85e9 to 3.2e9
 - LOPAR: 4910.0e6, 5090.0e6
+- MTR: 8.5e9, 9.6e9
+- TRR: 15.7e9, 17.5e9
+- TTR: 8.5e9, 9.6e9
 
 ## Missing features
 - Nuclear warhead (currently using a rough approximation of the conventional warhead)
