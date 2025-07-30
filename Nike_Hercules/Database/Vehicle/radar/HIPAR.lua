@@ -12,15 +12,15 @@ GT.visual.shape_dstr = "HIPAR";
 
 --sensor characteristics
 GT.sensor = {};
-GT.sensor.max_range_finding_target = 425000; --m
+GT.sensor.max_range_finding_target = 320000; --m
 GT.sensor.min_range_finding_target = 2000; --m
 GT.sensor.max_alt_finding_target = 46000; --m
-GT.sensor.height = 20; --m
+GT.sensor.height = 19; --m
 
-GT.CustomAimPoint = {0,6,0}
+GT.CustomAimPoint = {0,19,0}
 
 --GT.animation_arguments.locator_rotation = 1; --No animatedParts
-GT.radar_rotation_period = 3.0;
+GT.radar_rotation_period = 8;
 GT.snd.radarRotation = "RadarRotation";
 
 -- weapon systems
@@ -28,7 +28,7 @@ GT.WS = {};
 GT.WS.maxTargetDetectionRange = GT.sensor.max_range_finding_target;
 GT.WS.radar_type = 105;
 GT.WS.radar_rotation_type = 0;
-GT.WS.searchRadarFrequencies = {2.85e9, 3.2e9}; --{{8.0e9, 12.0e9}}
+GT.WS.searchRadarFrequencies = {1.35e9, 1.45e9};--{2.85e9, 3.2e9};
 --GT.WS.isDetector = true;
 
 --Burning after hit
