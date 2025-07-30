@@ -6,9 +6,18 @@ This mod adds the MIM-14 Nike Hercules to DCS World. The Nike Hercules is a comm
 Extract the Nike_Hercules file into **C:\Username\Saved Games\DCS\Mods\tech**
 
 
+<img width="2560" height="1440" alt="Screen_250729_185521" src="https://github.com/user-attachments/assets/0ddfaf35-8c1b-4c64-9eab-1f52b0939266" />
+
+<img width="1093" height="842" alt="Screen_250729_191108" src="https://github.com/user-attachments/assets/c208fa3f-44b6-43b1-b6c1-b9dae5c2e763" />
+
+<img width="2021" height="759" alt="Screen_250729_190123" src="https://github.com/user-attachments/assets/6b285430-2625-4967-ba21-2061f9252f46" />
+
+<img width="1776" height="1244" alt="Screen_250521_212207" src="https://github.com/user-attachments/assets/933c015f-f28b-4d40-bc8d-1f4cd3bc21f8" />
+
 ## Equipment Overview
 ### MIM-14B/C
-![Missile Drawing](https://www.nikemissile.org/IFC/missile2.jpg)
+
+<img width="2560" height="1440" alt="Screen_250729_185513" src="https://github.com/user-attachments/assets/6ec320d1-c99b-4cac-ac45-bf3f99358508" />
 
 The Nike Hercules Missile is a two-stage missile. The missile is launched near verically by the booster stage motor. The booster stage lasts for 3.4 seconds and propells the missile without guidance to above one mile. The booster will fall away due to aerodynamic drag following booster motor burn-out.
 
@@ -27,7 +36,9 @@ Documentation indicates that variants of the MIM-14 had g-limits of 7g with upgr
 
 
 ### AN/MPQ-43 HIPAR (high power acquisition radar)
+
 ![HIPAR](https://ed-thelen.org/hipar_station.gif)
+<img width="766" height="942" alt="Screen_250729_191022" src="https://github.com/user-attachments/assets/f25174f4-5dc0-44e8-94b7-b48a1bb2f4a6" />
 
 The primary function of the HIPAR system is to locate, interrogate, and designate, to the target track radar (TTR), targets in the area defended by the improved Hercules system. The HIPAR system can detect aircraft and tactical ballistic missile targets.
 
@@ -42,7 +53,9 @@ The primary function of the HIPAR system is to locate, interrogate, and designat
 
 
 ### LOPAR (low power acquisition radar)
+
 ![LOPAR](https://ed-thelen.org/LOPAR-ORD.jpg)
+<img width="610" height="603" alt="Screen_250729_191028" src="https://github.com/user-attachments/assets/c0356c75-da38-4029-8b4e-f9ed53670ab3" />
 
 The LOPAR was the ACQ radar from Ajax, retained for Hercules and renamed to LOPAR. Targets identified with the more powerful HIPAR would be then picked up on the LOPAR which would interigate with its IFF system.
 
@@ -57,7 +70,9 @@ The LOPAR was the ACQ radar from Ajax, retained for Hercules and renamed to LOPA
 
 
 ### MTR/TTR (Missile Tracking Radar/Target Tracking Radar)
+
 ![MTR/TTR](https://ed-thelen.org/pics5/Nike_Missile_Site_SF-88_HercTracking.jpg)
+<img width="707" height="911" alt="Screen_250729_191041" src="https://github.com/user-attachments/assets/18c6ad24-5839-40ed-9dfe-86b895ff82e3" />
 
 The LOPAR provided rough range, azimuth and limited altitude or elevation information to the operators of the Target Tracking Radar (TTR), who would manually slew the TTR onto the target. Once locked-on, tracking was automatic.
 
@@ -67,39 +82,57 @@ The MTR Tracks the position of the missile from launch, enabling the ground base
 - Freq. Range 	8.5 - 9.6 GHz 
 
 ### TRR (Target Ranging Radar)
+
 ![TRR](https://ed-thelen.org/trr_ant.jpg)
+<img width="1238" height="836" alt="Screen_250729_193826" src="https://github.com/user-attachments/assets/861bf7b3-c862-4f4f-9f1e-9678ee5834ba" />
+
 
 The Target Ranging Radar (TRR) was used to counter jamming techniques used against monopulse radars like the Target Tracking Radar (TTR). Jammers can disrupt range measurements by sending false signals, but the TRR countered this by rapidly switching between widely spaced frequencies, making it difficult to jam effectively. While TRR handled range, the TTR could still track targets in azimuth and elevation and was upgraded with a "home-on-jam" mode to track jamming signals directly.
 
 **Perormance Specs:**
-- Freq Range 	15.7 to 17.5 gHz 
+- Freq Range 	15.7 to 17.5 GHz 
 
 ### LCT (Launch Control Trailer)
+
 ![LCT](https://ed-thelen.org/LaunchControlTrailer-.jpg)
+<img width="641" height="944" alt="Screen_250729_191051" src="https://github.com/user-attachments/assets/8ac4eb06-44d7-4858-9498-c58e6d9ae36a" />
 
 ### BCT (Battery Control Trailer)
+
 ![BCT](https://ed-thelen.org/FM44-80-trailerComputer-.png)
+<img width="921" height="734" alt="Screen_250729_191011" src="https://github.com/user-attachments/assets/77ffc3ef-b3cf-465e-a2f1-5e84dc893c25" />
 
 ### RCT (Radar Control Trailer)
 
 ![RCT](https://ed-thelen.org/FM44-80-RadarTrailer-Target-.png)
+<img width="1112" height="536" alt="Screen_250729_190955" src="https://github.com/user-attachments/assets/6146c180-23e2-45aa-a58b-e1ea86a81c6a" />
+
+
 
 ### Other Buildings
 **Interconnection Building**
 
 ![ICB](https://nikemissile.org/ifcsketvch.jpg)
+<img width="947" height="916" alt="Screen_250729_191004" src="https://github.com/user-attachments/assets/0c0fa0ab-ee4c-4ae9-ae16-18c1a246b0aa" />
+<img width="2483" height="1372" alt="Screen_250521_212050" src="https://github.com/user-attachments/assets/34b443ef-7b1b-4285-9a7c-a8395f4eabe9" />
+
+
 
 **Power Building**
 
 ![Power Building](https://www.nikemissile.org/Generators/launcher.jpg)
+<img width="1428" height="911" alt="Screen_250729_191045" src="https://github.com/user-attachments/assets/52836d45-8038-46b7-afc4-6b3dd656c0fa" />
+
+
 
 
 **Elevation Tower**
-  
-![Elevation Tower](https://th.bing.com/th/id/R.b4860ea3ad21dc50d522e3fb3c5cc3e9?rik=2tbN5ty1IcaEbQ&riu=http%3a%2f%2fnikeordnance.nikemissile.org%2fHiparMtr2.jpg&ehk=R26niUUchIdtbRuMLz7ULyPlQrOE9n%2fFZS5xlK4r%2fv4%3d&risl=&pid=ImgRaw&r=0)
 
+![Elevation Tower](https://th.bing.com/th/id/R.b4860ea3ad21dc50d522e3fb3c5cc3e9?rik=2tbN5ty1IcaEbQ&riu=http%3a%2f%2fnikeordnance.nikemissile.org%2fHiparMtr2.jpg&ehk=R26niUUchIdtbRuMLz7ULyPlQrOE9n%2fFZS5xlK4r%2fv4%3d&risl=&pid=ImgRaw&r=0)
+<img width="660" height="821" alt="Screen_250729_191856" src="https://github.com/user-attachments/assets/f7d513f7-17e5-4f44-9362-1721588e46f5" />
 
 ### Site Layout
+
 ![System Overview](https://nikemissile.org/herc_system/page4.jpg)
 
 
@@ -107,13 +140,13 @@ The Target Ranging Radar (TRR) was used to counter jamming techniques used again
 - https://nikemissile.org/
 - https://ed-thelen.org/
 
-## DCS-isms
-Radar frequencies (for opposing AGM-45 settings)
-- HIPAR: 2.85e9 to 3.2e9
-- LOPAR: 4910.0e6, 5090.0e6
-- MTR: 8.5e9, 9.6e9
-- TRR: 15.7e9, 17.5e9
-- TTR: 8.5e9, 9.6e9
+## SEAD DCS-isms
+- All radars display as unknown symbol
+- Shrikes with Mk22, Mk25, and Mk50 guidance units will have tone and track
+- F-16C HARM appears to be unable to acquire in HAS or with HTS
+- F/A-18C HARM works in TOO and SP
+- SU-25T ARMs work normally
+
 
 ## Missing features
 - Nuclear warhead (currently using a rough approximation of the conventional warhead)
