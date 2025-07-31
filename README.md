@@ -1,6 +1,6 @@
 # DCS MIM-14 Nike Hercules System
 ## Introduction
-This simple mod add a basic MIM-14 Nike Hercules system to DCS World. The Nike Hercules is a command-guided, long-range, high-altitude anti-aircraft missile operated from the late 1950s to late 1980s.
+This simple mod adds a basic MIM-14 Nike Hercules system to DCS World. The Nike Hercules is a command-guided, long-range, high-altitude anti-aircraft missile operated from the late 1950s to late 1980s.
 
 ## Install
 Extract the Nike_Hercules file into **C:\Username\Saved Games\DCS\Mods\tech**
