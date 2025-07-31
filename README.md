@@ -142,6 +142,8 @@ The Target Ranging Radar (TRR) was used to counter jamming techniques used again
 
 ## SEAD DCS-isms
 - All radars display as unknown symbol
+<img width="2560" height="1440" alt="Screen_250729_203735" src="https://github.com/user-attachments/assets/4b294b58-0180-4e47-963c-a5666d309486" />
+
 - Shrikes with Mk22, Mk25, and Mk50 guidance units will have tone and track
 - F-16C HARM appears to be unable to acquire in HAS or with HTS
 - F/A-18C HARM works in TOO and SP
