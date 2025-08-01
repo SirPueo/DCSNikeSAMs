@@ -33,6 +33,7 @@ Documentation indicates that variants of the MIM-14 had g-limits of 7g with upgr
 **Mod Simplifications (This mod combines the two performance variations into two missile variants):**
 - The MIM-14B missiles are limited to 7g and do not include the sustainer motor delay.
 - The MIM-14C missiles are limited to 10g and include the sustainer motor delay.
+- The MTR, TTR, and TRR all track the target aircraft. I was unable to find a way to get the MTR to track the missile so I just have it track the target.
 
 
 ### AN/MPQ-43 HIPAR (high power acquisition radar)
