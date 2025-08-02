@@ -1,6 +1,6 @@
 # DCS MIM-14 Nike Hercules System
 ## Introduction
-This mod adds the MIM-14 Nike Hercules to DCS World. The Nike Hercules is a command-guided, long-range, high-altitude anti-aircraft missile operated from the late 1950s to late 1980s.
+This simple mod adds a basic MIM-14 Nike Hercules system to DCS World. The Nike Hercules is a command-guided, long-range, high-altitude anti-aircraft missile operated from the late 1950s to late 1980s.
 
 ## Install
 Extract the Nike_Hercules file into **C:\Username\Saved Games\DCS\Mods\tech**
@@ -33,6 +33,7 @@ Documentation indicates that variants of the MIM-14 had g-limits of 7g with upgr
 **Mod Simplifications (This mod combines the two performance variations into two missile variants):**
 - The MIM-14B missiles are limited to 7g and do not include the sustainer motor delay.
 - The MIM-14C missiles are limited to 10g and include the sustainer motor delay.
+- The MTR, TTR, and TRR all track the target aircraft. I was unable to find a way to get the MTR to track the missile so I just have it track the target.
 
 
 ### AN/MPQ-43 HIPAR (high power acquisition radar)
@@ -142,6 +143,8 @@ The Target Ranging Radar (TRR) was used to counter jamming techniques used again
 
 ## SEAD DCS-isms
 - All radars display as unknown symbol
+<img width="2560" height="1440" alt="Screen_250729_203735" src="https://github.com/user-attachments/assets/4b294b58-0180-4e47-963c-a5666d309486" />
+
 - Shrikes with Mk22, Mk25, and Mk50 guidance units will have tone and track
 - F-16C HARM appears to be unable to acquire in HAS or with HTS
 - F/A-18C HARM works in TOO and SP
