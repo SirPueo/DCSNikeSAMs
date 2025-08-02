@@ -37,7 +37,6 @@ GT.WS.radar_type = 102;
 GT.WS.radar_rotation_type = 0;
 GT.WS.searchRadarFrequencies = {3.1e9, 3.4e9};
 --GT.WS.isDetector = true;
-GT.WS.depends_on_unit = {"Nike-Hercules RCT"};
 
 local ws = 0;
 for i = 1,10 do 

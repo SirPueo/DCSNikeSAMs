@@ -65,7 +65,7 @@ GT.Name = "HIPAR";
 GT.DisplayName = _("Nike-Hercules High Power Aquisition Radar AN/FPS-71");
 GT.DisplayNameShort = _("AN/FPS-71 HIPAR");
 GT.Rate = 20;
-
+GT.depends_on_unit = {{{"Nike-Hercules Pwr Bldg"}}};
 GT.Crew = 0; -- no human sensor
 GT.Sensors = { RADAR = "HIPAR_sr"};
 

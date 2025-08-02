@@ -37,7 +37,7 @@ GT.WS[ws].pos = {0, 0, 0};
 GT.WS[ws].LN[1].ECM_K = -1;
 GT.WS[ws].LN[1].beamWidth = 0.0;
 GT.WS[ws].LN[1].barrels_reload_type = 3; -- BarrelsReloadTypes.SEQUENTIALY
-GT.WS[ws].LN[1].depends_on_unit = {{{"Nike-Hercules MTR"},},};
+GT.WS[ws].LN[1].depends_on_unit = {{{"Nike-Hercules MTR","Nike-Hercules TTR"},},{{"Nike-Hercules MTR_Covered","Nike-Hercules TTR_Covered"},},};
 GT.WS[ws].LN[1].reactionTime = 6;
 GT.WS[ws].LN[1].PL[1].ammo_capacity = 1;
 GT.WS[ws].LN[1].PL[1].shot_delay = 10;
@@ -48,7 +48,6 @@ GT.Name = "Nike Hercules ln_B";
 GT.DisplayName = _('Nike Hercules Single Launcher_B');
 GT.DisplayNameShort = _("Nike Hercules LN_B");
 GT.Rate = 10;
-
 GT.DetectionRange  = 0;
 GT.ThreatRange = GT.WS[1].LN[1].distanceMax;
 GT.mapclasskey = "P0091000079";

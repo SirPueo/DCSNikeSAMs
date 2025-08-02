@@ -22,7 +22,7 @@ GT.Name = "Nike-Hercules BCT"
 GT.DisplayName = _('Nike-Hercules Battery Control Trailer')
 GT.DisplayNameShort = _('Nike-Hercules BCT')
 GT.Rate = 3;
-
+GT.depends_on_unit = {{{"HIPAR"},{"Nike-Hercules LOPAR"}}};
 GT.DetectionRange  = 0;
 GT.ThreatRange = 0;
 GT.mapclasskey = "P0091000212";

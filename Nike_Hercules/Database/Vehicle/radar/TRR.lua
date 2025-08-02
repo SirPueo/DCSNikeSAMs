@@ -63,7 +63,7 @@ GT.WS[ws].pidZ = { p = 5, i = 0.0, d = 4, inn = 0.2};
 
 GT.WS[ws].LN = {};
 GT.WS[ws].LN[1] = {};
-GT.WS[ws].LN[1].depends_on_unit = {"Nike-Hercules RCT"};
+--GT.WS[ws].LN[1].depends_on_unit = {"Nike-Hercules RCT"};
 GT.WS[ws].LN[1].reactionTime = 10;
 GT.WS[ws].LN[1].type = 102;
 GT.WS[ws].LN[1].distanceMin = 2000;

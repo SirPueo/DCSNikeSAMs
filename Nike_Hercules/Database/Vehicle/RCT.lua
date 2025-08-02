@@ -26,7 +26,7 @@ GT.sensor = {};
 GT.sensor.max_range_finding_target = 300000;
 GT.sensor.min_range_finding_target = 1;
 GT.sensor.max_alt_finding_target = 80000;
-GT.sensor.height = 8.68;
+GT.sensor.height = 1;
 
 GT.WS = {};
 GT.WS.maxTargetDetectionRange = 300000;
@@ -57,7 +57,6 @@ GT.Name = "Nike-Hercules RCT";
 GT.DisplayName = _('Nike-Hercules Radar Control Trailer');
 GT.DisplayNameShort = _('Nike-Hercules RCT');
 GT.Rate = 20;
-
 GT.DetectionRange  = 0;
 GT.ThreatRange = 0;
 GT.mapclasskey = "P0091000046";

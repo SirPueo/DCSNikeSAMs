@@ -1,6 +1,6 @@
 --Nike Hercules Mod
 --by SirPueo
---v0.1.1
+--v0.1.2
 
 declare_plugin("Nike_Hercules",
 {
@@ -76,6 +76,9 @@ weapon_file("/Database/Weapon/MIM14C_NL.lua")
 vehicle_file("/Database/Vehicle/BCT.lua") 
 vehicle_file("/Database/Vehicle/RCT.lua") 
 vehicle_file("/Database/Vehicle/LCT.lua") 
+vehicle_file("/Database/Vehicle/radar/MTR_COVERED.lua")
+vehicle_file("/Database/Vehicle/radar/TTR_COVERED.lua")
+vehicle_file("/Database/Vehicle/radar/TRR_COVERED.lua")
 vehicle_file("/Database/Vehicle/radar/MTR.lua")
 vehicle_file("/Database/Vehicle/radar/TTR.lua") 
 vehicle_file("/Database/Vehicle/radar/TRR.lua") 
