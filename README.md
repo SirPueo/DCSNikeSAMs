@@ -14,6 +14,9 @@ Extract the Nike_Hercules file into **C:\Username\Saved Games\DCS\Mods\tech**
 
 <img width="1776" height="1244" alt="Screen_250521_212207" src="https://github.com/user-attachments/assets/933c015f-f28b-4d40-bc8d-1f4cd3bc21f8" />
 
+<img width="957" height="622" alt="Screen_250802_203333" src="https://github.com/user-attachments/assets/f111cd0b-7207-4d14-bee0-fad9362026df" />
+
+
 ## Equipment Overview
 ### MIM-14B/C
 
@@ -79,6 +82,8 @@ The LOPAR provided rough range, azimuth and limited altitude or elevation inform
 
 The MTR Tracks the position of the missile from launch, enabling the ground based system to calculate the necessary steering and fuzing commands for the missile to intercept the target tracked by the TTR. To facilitate missile tracking, in reality, the MTR must have uninterrupted line of sight from launch to target intercept.
 
+Both a covered and uncovered variant are available as of V0.1.2
+
 **Perormance Specs:**
 - Freq. Range 	8.5 - 9.6 GHz 
 
@@ -89,6 +94,8 @@ The MTR Tracks the position of the missile from launch, enabling the ground base
 
 
 The Target Ranging Radar (TRR) was used to counter jamming techniques used against monopulse radars like the Target Tracking Radar (TTR). Jammers can disrupt range measurements by sending false signals, but the TRR countered this by rapidly switching between widely spaced frequencies, making it difficult to jam effectively. While TRR handled range, the TTR could still track targets in azimuth and elevation and was upgraded with a "home-on-jam" mode to track jamming signals directly.
+
+Both a covered and uncovered variant are available as of V0.1.2
 
 **Perormance Specs:**
 - Freq Range 	15.7 to 17.5 GHz 
